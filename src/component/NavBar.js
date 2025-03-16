@@ -28,24 +28,23 @@ function NavBar() {
                   <Link className="nav-link" to="/about">About</Link>
                 </li>
                 <li className="nav-item dropdown">
-                  <a
+                  <button
                     className="nav-link dropdown-toggle"
-                    href="#"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     Link
-                  </a>
+                  </button>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                    <li><Link className="dropdown-item" to="/action">Action</Link></li>
+                    <li><Link className="dropdown-item" to="/another-action">Another action</Link></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                    <li><Link className="dropdown-item" to="/something-else">Something else here</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link disabled" aria-disabled="true">Link</a>
+                  <span className="nav-link disabled" aria-disabled="true">Link</span>
                 </li>
               </ul>
               <form className="d-flex" role="search">
