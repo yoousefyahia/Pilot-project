@@ -30,7 +30,6 @@ function NavBar() {
                 <li className="nav-item dropdown">
                   <button
                     className="nav-link dropdown-toggle"
-                    role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
